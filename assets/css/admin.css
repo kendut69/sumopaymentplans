@@ -1,0 +1,42 @@
+body.post-type-sumo_pp_payments .alignleft:not(.bulkactions){width:35%;}
+
+.sumo-pp-payment-status-wrap mark{font: 13px arial, sans-serif;text-align: center;display:table-cell;border-radius: 15px;padding:4px 6px 4px 6px;}
+.sumo-pp-payment-status-wrap mark._sumo_pp_pending{background-color:#727272;color:white;}
+.sumo-pp-payment-status-wrap mark._sumo_pp_await_aprvl{background-color:#FFFF00;color:000;}
+.sumo-pp-payment-status-wrap mark._sumo_pp_await_cancl{background-color:#F2C779;color:000;}
+.sumo-pp-payment-status-wrap mark._sumo_pp_completed{background-color:#1CBFED;color:white;}
+.sumo-pp-payment-status-wrap mark._sumo_pp_in_progress{background-color:#008000;color:white;}
+.sumo-pp-payment-status-wrap mark._sumo_pp_overdue{background-color:#1E1C00;color:white;}
+.sumo-pp-payment-status-wrap mark._sumo_pp_cancelled{background-color:#EF381C;color:white;}
+.sumo-pp-payment-status-wrap mark._sumo_pp_failed{background-color:#99270B;color:white;}
+.sumo-pp-payment-status-wrap mark._sumo_pp_pendng_auth{background-color:#96588a;color:white;}
+
+#_sumo_pp_payment_details .handlediv,#_sumo_pp_payment_details .hndle,#_sumo_pp_payment_details .postbox-header{display:none}
+
+#_sumo_pp_payment_notes ul.payment_notes li.success .note_content {background: #62d162 none repeat scroll 0 0;}
+#_sumo_pp_payment_notes ul.payment_notes li.pending .note_content{background: #abb7ae none repeat scroll 0 0;}
+#_sumo_pp_payment_notes ul.payment_notes li.processing .note_content{background: #dd9a48 none repeat scroll 0 0;}
+#_sumo_pp_payment_notes ul.payment_notes li.failure .note_content{background: #f2644a none repeat scroll 0 0;}
+#_sumo_pp_payment_notes ul.payment_notes li.failure .note_content::after {border-color: #f2644a transparent;}
+#_sumo_pp_payment_notes ul.payment_notes li.success .note_content::after {border-color: #62d162 transparent;}
+#_sumo_pp_payment_notes ul.payment_notes li.pending .note_content::after {border-color: #abb7ae transparent;}
+#_sumo_pp_payment_notes ul.payment_notes li.processing .note_content::after {border-color: #dd9a48 transparent;}
+#_sumo_pp_payment_notes ul.payment_notes{padding: 2px 0 0;}
+#_sumo_pp_payment_notes ul.payment_notes li {padding: 0 10px;}
+#_sumo_pp_payment_notes ul.payment_notes li .note_content{padding: 10px;position: relative;}
+#_sumo_pp_payment_notes ul.payment_notes li .note_content p{margin: 0;padding: 0;word-wrap: break-word;color:#fff;}
+#_sumo_pp_payment_notes ul.payment_notes li a.delete_note {color: #a00;}
+#_sumo_pp_payment_notes ul.payment_notes li p.meta {color: #999;font-size: 11px;margin: 0;padding: 10px;}
+#_sumo_pp_payment_notes ul.payment_notes li .note_content::after {border-style: solid;border-width: 10px 10px 0 0;bottom: -10px;content: "";display: block;height: 0;left: 20px;position: absolute;width: 0;}
+#_sumo_pp_payment_notes ul.payment_notes .note_content::after {border-color: #d7cad2 transparent;}
+#_sumo_pp_payment_notes .add_payment_note{border-top: 1px solid #ddd;padding: 10px 10px 0;}
+#_sumo_pp_payment_notes .add_payment_note h4 {margin-top: 5px !important;}
+#_sumo_pp_payment_notes .add_payment_note #payment_note{height: 50px;width: 100%;}
+
+.sumo-pp-payment-related-orders table {width:100%;border-collapse: collapse;border: 1px solid #ccc;}
+.sumo-pp-payment-related-orders table thead {background: #f1f1f1;}
+.sumo-pp-payment-related-orders table th, .sumo-pp-payment-related-orders table td {padding: 10px;text-align: left;border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;}
+
+div.sumo-pp-selected-plans{width:100%;float:left;padding:10px;margin-top:10px;}
+div.sumo-pp-selected-plans table {border:1px solid #f1f1f1;box-shadow:none}
+div.sumo-pp-selected-plans table span.select2-container{min-width:350px;}
